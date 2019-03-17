@@ -1,17 +1,27 @@
 import React, {PureComponent} from "react"
 import Link from "next/link"
+import NavStyles from "../styles/NavStyles"
 
 class Nav extends PureComponent {
   render(){
     return(
-      <div>
-        <Link href="/">
-          Home
+      <NavStyles>
+        <Link href="/items">
+         <a>Items</a> 
         </Link>
         <Link href="/sell">
-          Sell
+          <a>Sell</a> 
         </Link>
-      </div>
+        <Link href="/signup">
+         <a>Signup</a> 
+        </Link>
+        <Link href="/order">
+         <a>Orders</a> 
+        </Link>
+        <Link href="/me">
+         <a>me</a> 
+        </Link>
+      </NavStyles>
     )
   }
 }

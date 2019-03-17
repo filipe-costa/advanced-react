@@ -13,8 +13,6 @@ class MyApp extends App {
       </Container>
     )
   }
-
-
 }
 
 export default MyApp
