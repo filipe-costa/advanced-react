@@ -1,8 +1,8 @@
 import React, { PureComponent } from "react"
-
+import Items from "../components/Items/Items"
 class Home extends PureComponent {
   render(){
-    return <p>Hey!</p>
+    return <Items />
   }
 }
 

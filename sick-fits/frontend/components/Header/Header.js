@@ -60,7 +60,7 @@ class Header extends PureComponent {
       <StyledHeader>
         <div className="bar">
           <Logo>
-            <a href="">Sick Fits</a>
+            <a href="/">Sick Fits</a>
           </Logo>
           <Nav />
         </div>
